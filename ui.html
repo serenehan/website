@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Present 💌</title>
+    <style>
+        body {
+            font-family: 'Courier New', monospace;
+            background-color: #FFDAB9; /* Light Orange */
+            text-align: center;
+            color: black;
+            padding: 50px;
+        }
+        .letter {
+            background: rgba(255, 140, 0, 0.8); /* Deep Orange with Transparency */
+            padding: 30px;
+            border-radius: 10px;
+            display: inline-block;
+            max-width: 600px;
+            color: white;
+        }
+        .hidden-message {
+            display: none;
+            font-style: italic;
+            margin-top: 20px;
+            color: #ffcccb;
+        }
+        .buttons {
+            margin-top: 20px;
+        }
+        .btn {
+            background-color: #ff4d4d;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+            margin: 5px;
+            border-radius: 5px;
+            text-decoration: none;
+            display: inline-block;
+        }
+        .btn:hover {
+            background-color: #cc0000;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="letter">
+        <h1>To My Babyy Bonitaa❤️</h1>
+        <p>
+            My love for you grows stronger with each passing day. You are my motivation, my joy, and my reason to smile.
+            Every moment with you is a cherished memory, and I can't wait to create more together. 
+        </p>
+        <button onclick="showMessage()">CLICK TO SEE MY HEARTFELT SCENE</button>
+        <p class="hidden-message" id="secretMessage">You are my forever and always. 💕</p>
+        <div class="button" style="margin-top: 20px;">
+            <a href="loveletter.html"<button onclick="showMessage()">Here's my message for your birthday</button></div></div></a>
+
+        <!-- Functional Buttons -->
+        <div class="buttons">
+            <a href="heartname.html" class="btn">View my heart</a>
+            <a href="flower.html" class="btn">Click 4 Surprise</a>
+            <a href="gallery.html" class="btn">View Gallery</a>
+            <a href="heart-particles-animation.html" class="btn">Click me ILYSM</a>
+            
+        </div>
+    </div>
+
+    <script>
+        function showMessage() {
+            document.getElementById("secretMessage").style.display = "block";
+        }
+    </script>
+
+</body>
+</html>
